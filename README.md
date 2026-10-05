@@ -2,7 +2,7 @@
 
 A single-page, bilingual (English / Español) portfolio for a full-stack software engineer, styled like a stack of retro browser windows.
 
-> **Live site:** _add your deployed URL here_
+> **Live site:** https://elizabeth-rodriguez.vercel.app
 
 The page opens with an `about_me.txt` window whose second tab, `contact_me.js`, holds the contact links. Below it, Experience, Projects and Skills each live in their own window with a monospace file-name tab (`experience.log`, `projects/`, `skills.json`), plus a few "forgotten" background tabs for that too-many-tabs-open developer feel.
 
