@@ -4,7 +4,7 @@ A single-page, bilingual (English / Español) portfolio for a full-stack softwar
 
 > **Live site:** https://elizabeth-rodriguez.vercel.app
 
-The page opens with an `about_me.txt` window whose second tab, `contact_me.js`, holds the contact links. Below it, Experience, Projects and Skills each live in their own window with a monospace file-name tab (`experience.log`, `projects/`, `skills.json`), plus a few "forgotten" background tabs for that too-many-tabs-open developer feel.
+The page opens with an `about_me.txt` window whose second tab, `contact_me.js`, holds the contact links. Below it, Experience, Projects, and Skills each live in their own window with a monospace file-name tab (`experience.log`, `projects/`, `skills.json`), plus a few "forgotten" background tabs for that too-many-tabs-open developer feel.
 
 ## Features
 
@@ -131,6 +131,6 @@ I built this with **Claude Code** (Anthropic's coding assistant), running in VS 
 
 **6. Tests and verification.** The AI wrote the Vitest suite and fixed the test warnings at their source. It built the project after every change and checked the dev server, and it told me when something couldn't be verified without me looking at the page.
 
-**What stayed with me:** every design choice, the tone (no "open to work" language, since I'm currently employed), the wording in both languages (including using the feminine *desarrolladora* in Spanish), what personal information is public, and anything that touched my accounts (GitHub repo renames, Vercel domains), which I did myself with the AI's step-by-step guidance.
+**What stayed with me:** every design choice, what personal information is public, and anything that touched my accounts (GitHub repo renames, Vercel domains), which I did myself with the AI's step-by-step guidance.
 
 **What I learned:** AI is fastest when the spec is written down first and feedback is concrete. A screenshot plus "this looks like it's floating" got better results than abstract descriptions. Asking for a recommendation, not just options, sped up decisions, but the final call stayed with me.
