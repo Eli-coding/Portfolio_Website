@@ -40,7 +40,7 @@ Accessibility was a requirement from the start, not a final pass:
 | Font | Lexend, self-hosted via `@fontsource/lexend` |
 | Type checks | PropTypes |
 | Tests | [Vitest](https://vitest.dev/), jsdom and React Testing Library |
-| Deploy | GitHub Actions to Netlify (any static host works) |
+| Deploy | [Vercel](https://vercel.com/) via its GitHub integration (any static host works) |
 
 There's no backend: all content comes from JSON files.
 
@@ -90,7 +90,6 @@ src/
   i18n.js          i18next setup
 public/            Résumé PDF
 docs/adr/          Architecture decision record
-.github/workflows/ Deploy pipeline
 ```
 
 ## Testing
@@ -107,7 +106,11 @@ npm run test:run
 
 ## Deployment
 
-`.github/workflows/deploy.yml` builds and deploys to Netlify on every push to `main`. Add two repository secrets: `NETLIFY_AUTH_TOKEN` and `NETLIFY_SITE_ID`. The build uses a relative base path, so `dist/` also works on Vercel or GitHub Pages.
+Hosted on **Vercel**, connected to this GitHub repo: every push to `main` deploys to production, and pull requests get preview URLs.
+
+To set it up: **Vercel → Add New → Project → import this repo**. Vercel detects Vite automatically (build: `npm run build`, output: `dist`). No environment variables or server config are needed. Routing uses URL hashes, so there are no rewrite rules either.
+
+The build uses a relative base path, so `dist/` also works on Netlify or GitHub Pages.
 
 ## AI-assisted workflow
 

@@ -9,6 +9,7 @@
 - **2026-10-05:** Added dark mode toggle and Spanish/English language toggle to scope based on expanded requirements
 - **2026-10-05:** Adopted a dyslexia-friendly typeface (Lexend) as the site-wide font
 - **2026-10-05:** Moved Contact directly below About; restyled Skills as labeled groups of icon badges
+- **2026-10-05:** Hosting set to Vercel (GitHub integration) instead of a GitHub Actions → Netlify workflow
 - **2026-10-05:** About redesigned as a retro pop-up window with browser-style tabs (`about_me.txt`, `contact_me.js`); Contact moved into the second tab
 - **2026-10-05:** About redesigned as a colored hero band (no photo); Contact shown as a full-width, centered "Let's get in touch!" strip directly under the hero; removed "open to work" / job-seeking language since the candidate is currently employed
 
@@ -260,7 +261,7 @@ We will build a **single-page React application** with a **colorful/playful aest
 - i18n translations in `src/locales/en.json` and `src/locales/es.json`
 - Create `ThemeContext` for dark mode state management
 - Use `react-i18next` with localStorage persistence for language preference
-- Deploy via GitHub Actions to Vercel/Netlify on push to `main`
+- Deploy on Vercel via its GitHub integration (auto-deploys on push to `main`, preview URLs for pull requests)
 - Add PropTypes or TypeScript (optional) for data structure validation
 
 ---
