@@ -1,0 +1,118 @@
+{
+  "profile": {
+    "name": "Elizabeth Rodriguez",
+    "location": "San Juan, Puerto Rico",
+    "email": "elizabethyoannie2020@gmail.com",
+    "github": "https://github.com/Eli-coding",
+    "linkedin": "https://www.linkedin.com/in/elizabeth-rodriguez-cardona/",
+    "resume": "Elizabeth_Rodriguez_Resume.pdf",
+    "resumeSize": "226 KB"
+  },
+  "experience": [
+    {
+      "id": "ethree",
+      "company": "Ethree Solutions",
+      "start": "2023",
+      "end": null,
+      "tech": [
+        "Vue.js",
+        "PHP",
+        "JavaScript",
+        "SQL",
+        "Power BI",
+        "Jira",
+        "Bitbucket"
+      ]
+    },
+    {
+      "id": "old-navy",
+      "company": "Old Navy",
+      "start": "2021",
+      "end": "2022",
+      "tech": []
+    }
+  ],
+  "projects": [
+    {
+      "id": "code-like-a-dog",
+      "category": "frontend",
+      "status": null,
+      "tech": [
+        "React",
+        "Vite",
+        "React Router",
+        "CSS3"
+      ],
+      "demo": "https://dog-developer-quiz.vercel.app",
+      "repo": "https://github.com/Eli-coding/dog-developer-quiz",
+      "thumbnail": null,
+      "tile": "terminal"
+    },
+    {
+      "id": "raiz-rizada",
+      "category": "frontend",
+      "status": null,
+      "tech": [
+        "React",
+        "Vite",
+        "OpenWeatherMap API"
+      ],
+      "demo": "https://raiz-rizada.vercel.app",
+      "repo": "https://github.com/Eli-coding/raiz-rizada",
+      "thumbnail": null,
+      "tile": "cloud"
+    },
+    {
+      "id": "stripe-dashboard",
+      "category": "fullstack",
+      "status": null,
+      "tech": [
+        "React",
+        "Node.js",
+        "SQL",
+        "Stripe API"
+      ],
+      "demo": null,
+      "repo": "https://github.com/Eli-coding/stripe-etl-pipeline",
+      "thumbnail": null,
+      "tile": "braces"
+    }
+  ],
+  "skills": {
+    "languages": [
+      "JavaScript",
+      "TypeScript",
+      "PHP",
+      "SQL",
+      "HTML5",
+      "CSS3",
+      "Visual Basic"
+    ],
+    "frontend": [
+      "React",
+      "Vue.js",
+      "Bootstrap",
+      "CSS3"
+    ],
+    "backend": [
+      "Node.js",
+      "Express.js",
+      "Laravel"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "SQL (Azure Data Studio, DBeaver)",
+      "MongoDB",
+      "Redis"
+    ],
+    "tools": [
+      "Git",
+      "GitHub",
+      "Bitbucket",
+      "Jira",
+      "Vercel",
+      "Power BI",
+      "REST APIs"
+    ]
+  }
+}

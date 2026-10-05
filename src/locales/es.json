@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "title": "{{name}} — Desarrolladora de Software Full-Stack"
+  },
+  "a11y": {
+    "skipToContent": "Saltar al contenido",
+    "mainNav": "Principal",
+    "openMenu": "Abrir menú",
+    "switchToDark": "Cambiar a modo oscuro",
+    "switchToLight": "Cambiar a modo claro",
+    "switchLanguage": "Switch to English",
+    "opensInNewTab": "(se abre en una pestaña nueva)"
+  },
+  "language": {
+    "toggleLabel": "EN",
+    "toggleLang": "en"
+  },
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "about": {
+    "windowTitle": "sobre_mi.txt",
+    "greeting": "Hola, soy",
+    "tagline": "Desarrolladora de Software Full-Stack",
+    "intro": "Tengo más de 2 años de experiencia creando y manteniendo aplicaciones web para clientes empresariales de los sectores bancario, farmacéutico y gubernamental. Trabajo en todo el stack con JavaScript, TypeScript, React, Vue.js, Node.js y SQL, y desarrollo y despliego mis propios proyectos full-stack fuera del trabajo. Cuento con un bachillerato en Ciencias de Computadoras (Magna Cum Laude) y un certificado en Desarrollo Full Stack de la Universidad de Pensilvania, y hablo inglés y español.",
+    "decor": {
+      "minimize": "Esta no se minimiza",
+      "maximize": "Ya está a tamaño completo",
+      "close": "Esta ventana se queda abierta :)",
+      "newTab": "No hay pestañas nuevas, solo yo",
+      "closeTab": "Esta pestaña se queda abierta :)"
+    }
+  },
+  "experience": {
+    "present": "Actualidad",
+    "items": {
+      "ethree": {
+        "role": "Software Engineer",
+        "location": "San Juan, PR",
+        "points": [
+          "Desarrollé y mantuve interfaces frontend para clientes empresariales de los sectores bancario, farmacéutico y gubernamental con Vue.js, PHP y JavaScript.",
+          "Desarrollé consultas SQL y pipelines de datos para extraer, transformar y entregar datos de reportes a un cliente bancario que procesa más de 300K casos de préstamos.",
+          "Creé dashboards interactivos en Power BI que permiten a los clientes monitorear por su cuenta el progreso de las automatizaciones, reduciendo las consultas de soporte y mejorando la transparencia.",
+          "Diagnostiqué y resolví errores en producción en código de Vue.js y PHP, mejorando la estabilidad de las aplicaciones y la experiencia de usuario.",
+          "Lideré la transición y el despliegue a producción, a tiempo, de un bot de Automation Anywhere tras una reasignación del equipo.",
+          "Colaboré con stakeholders para recopilar requisitos, definir el alcance técnico y alinear entregables usando Jira y Bitbucket."
+        ]
+      },
+      "old-navy": {
+        "role": "Sales Associate",
+        "location": "San Juan, PR",
+        "points": [
+          "Atendí más de 100 consultas de clientes por turno en un entorno de alto volumen; obtuve un Certificado de Logro por la mayor cantidad de inscripciones al programa de lealtad de la tienda."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "filterLabel": "Filtrar proyectos por stack o tecnología",
+    "showAll": "Mostrar todos",
+    "showing_one": "Mostrando {{count}} de {{total}} proyectos",
+    "showing_other": "Mostrando {{count}} de {{total}} proyectos",
+    "empty": "Todavía no hay proyectos que coincidan con estos filtros.",
+    "liveDemo": "Demo en vivo",
+    "code": "Código",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "fullstack": "Full-stack"
+    },
+    "items": {
+      "code-like-a-dog": {
+        "title": "Do You Code Like a Dog?",
+        "description": "Quiz interactivo de personalidad para developers que relaciona hábitos de programación con 9 arquetipos de razas de perros. Hecho con componentes funcionales, props, renderizado condicional y enrutamiento del lado del cliente. Permite compartir resultados por URL y copiarlos al portapapeles."
+      },
+      "raiz-rizada": {
+        "title": "Raíz Rizada — App del clima para rizos",
+        "description": "App del clima que calcula un pronóstico personalizado para tus rizos a partir de la humedad y la temperatura en tiempo real. Incluye manejo de errores, soporte de teclado y recomendaciones según la porosidad del cabello."
+      },
+      "stripe-dashboard": {
+        "title": "Stripe API Dashboard",
+        "description": "Pipeline ETL que se conecta a la API de Stripe para extraer, transformar y reportar datos de transacciones; ahora se amplía con un dashboard en React para reportes visuales."
+      }
+    },
+    "status": {
+      "inDevelopment": "En desarrollo"
+    }
+  },
+  "skills": {
+    "groups": {
+      "languages": "Lenguajes",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Bases de datos",
+      "tools": "Herramientas"
+    }
+  },
+  "contact": {
+    "windowTitle": "contacto.js",
+    "title": "¡Pongámonos en contacto!",
+    "email": "Correo",
+    "resume": "Descargar currículum (PDF, {{size}})",
+    "emailTo": "a {{name}}",
+    "emailLabel": "Correo a {{name}}",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "copyEmail": "Copiar dirección de correo",
+    "copiedAnnouncement": "Dirección de correo copiada"
+  },
+  "footer": "© {{year}} {{name}}. Hecho con React y Material UI.",
+  "sections": {
+    "files": {
+      "experience": "experiencia.log",
+      "projects": "proyectos/",
+      "skills": "habilidades.json"
+    },
+    "forgottenTab": "Otra pestaña que olvidé cerrar :)"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "title": "{{name}} — Full-Stack Software Engineer"
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "mainNav": "Main",
+    "openMenu": "Open menu",
+    "switchToDark": "Switch to dark mode",
+    "switchToLight": "Switch to light mode",
+    "switchLanguage": "Cambiar a español",
+    "opensInNewTab": "(opens in a new tab)"
+  },
+  "language": {
+    "toggleLabel": "ES",
+    "toggleLang": "es"
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "about": {
+    "windowTitle": "about_me.txt",
+    "greeting": "Hi, I'm",
+    "tagline": "Full-Stack Software Engineer",
+    "intro": "I have 2+ years of experience building and maintaining web applications for enterprise clients in banking, pharmaceutical and government. I work across the stack with JavaScript, TypeScript, React, Vue.js, Node.js and SQL, and I build and deploy my own full-stack projects outside of work. I hold a B.A. in Computer Science (Magna Cum Laude) and a Full Stack Development certificate from the University of Pennsylvania, and I'm bilingual in English and Spanish.",
+    "decor": {
+      "minimize": "Can't minimize this one",
+      "maximize": "Already at full size",
+      "close": "This window stays open :)",
+      "newTab": "No new tabs, just me",
+      "closeTab": "This tab stays open :)"
+    }
+  },
+  "experience": {
+    "present": "Present",
+    "items": {
+      "ethree": {
+        "role": "Software Engineer",
+        "location": "San Juan, PR",
+        "points": [
+          "Built and maintained frontend interfaces for enterprise clients in banking, pharmaceutical and government sectors using Vue.js, PHP and JavaScript.",
+          "Developed SQL queries and data pipelines to extract, transform and deliver reporting data for a banking client processing 300K+ loan cases.",
+          "Created interactive Power BI dashboards that let clients monitor automation progress themselves, reducing support inquiries and improving transparency.",
+          "Diagnosed and resolved production bugs across Vue.js and PHP codebases, improving application stability and user experience.",
+          "Led the handoff and on-schedule production deployment of an Automation Anywhere bot following a team reassignment.",
+          "Collaborated with stakeholders to gather requirements, define technical scope and align deliverables using Jira and Bitbucket."
+        ]
+      },
+      "old-navy": {
+        "role": "Sales Associate",
+        "location": "San Juan, PR",
+        "points": [
+          "Handled 100+ customer inquiries per shift in a high-volume retail environment; earned a Certificate of Achievement for the highest loyalty program enrollment in the store."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "filterLabel": "Filter projects by stack or technology",
+    "showAll": "Show all",
+    "showing_one": "Showing {{count}} of {{total}} projects",
+    "showing_other": "Showing {{count}} of {{total}} projects",
+    "empty": "No projects match these filters yet.",
+    "liveDemo": "Live demo",
+    "code": "Code",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "fullstack": "Full-stack"
+    },
+    "items": {
+      "code-like-a-dog": {
+        "title": "Do You Code Like a Dog?",
+        "description": "Interactive developer personality quiz that matches coding habits to 9 dog breed archetypes. Built with functional components, props, conditional rendering and client-side routing. Features URL-based result sharing and copy-to-clipboard."
+      },
+      "raiz-rizada": {
+        "title": "Raíz Rizada — Curly Hair Weather App",
+        "description": "Weather app that calculates a personalized curl forecast from real-time humidity and temperature. Includes error handling, keyboard support and porosity-tailored recommendations."
+      },
+      "stripe-dashboard": {
+        "title": "Stripe API Dashboard",
+        "description": "ETL pipeline that connects to the Stripe API to extract, transform and report transaction data, now expanding with a React dashboard for visual reporting."
+      }
+    },
+    "status": {
+      "inDevelopment": "In development"
+    }
+  },
+  "skills": {
+    "groups": {
+      "languages": "Languages",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Databases",
+      "tools": "Tools"
+    }
+  },
+  "contact": {
+    "windowTitle": "contact_me.js",
+    "title": "Let's get in touch!",
+    "email": "Email",
+    "resume": "Download Resume (PDF, {{size}})",
+    "emailTo": "{{name}}",
+    "emailLabel": "Email {{name}}",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "copyEmail": "Copy email address",
+    "copiedAnnouncement": "Email address copied to clipboard"
+  },
+  "footer": "© {{year}} {{name}}. Built with React and Material UI.",
+  "sections": {
+    "files": {
+      "experience": "experience.log",
+      "projects": "projects/",
+      "skills": "skills.json"
+    },
+    "forgottenTab": "Just another tab I forgot to close :)"
+  }
+}
